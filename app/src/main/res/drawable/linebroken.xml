@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:color="@color/colorPrimary"
+                android:width="2dp"
+                android:dashWidth="80px"
+                android:dashGap="20px"/>
+            <!-- Set the same value for both width and height to get a circular shape -->
+        </shape>
+    </item>
+</selector>

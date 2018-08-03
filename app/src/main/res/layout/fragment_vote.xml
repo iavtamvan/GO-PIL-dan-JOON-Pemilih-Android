@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.iavariav.root.joon.Rule.Fragment.VoteFragment">
+    <LinearLayout
+        android:layout_width="0.1dp"
+        android:layout_height="0.1dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivResult"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true" />
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/camera_preview"/>
+
+    </LinearLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/div"
+            android:orientation="vertical">
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
