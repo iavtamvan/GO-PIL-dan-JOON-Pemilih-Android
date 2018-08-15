@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/bglogin"
-    tools:context="com.iavariav.root.joon.LoginActivity">
+    tools:context="com.iavariav.root.gopil.LoginActivity">
 
     <com.daimajia.slider.library.SliderLayout
         android:id="@+id/mSliderSlider"
@@ -115,7 +115,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:background="@color/colorPrimary"
+                        android:background="@color/btn"
                         android:text="LOGIn"
                         android:textColor="@android:color/white"
                         android:textSize="20dp" />
@@ -166,7 +166,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="4dp"
-                    android:text="JOON"
+                    android:text="@string/akusisi"
                     android:textColor="@android:color/white"
                     android:textStyle="bold" />
 

@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@android:color/white"
-    tools:context="com.iavariav.root.joon.Rule.PartaiActivity">
+    tools:context="com.iavariav.root.gopil.Rule.PartaiActivity">
 
     <ScrollView
         android:layout_width="match_parent"

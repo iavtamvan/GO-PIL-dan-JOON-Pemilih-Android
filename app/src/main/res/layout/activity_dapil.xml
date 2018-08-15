@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@android:color/white"
-    tools:context="com.iavariav.root.joon.Rule.DapilActivity">
+    tools:context="com.iavariav.root.gopil.Rule.DapilActivity">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">

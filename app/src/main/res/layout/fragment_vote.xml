@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@android:color/white"
-    tools:context="com.iavariav.root.joon.Rule.Fragment.VoteFragment">
+    tools:context="com.iavariav.root.gopil.Rule.Fragment.VoteFragment">
     <LinearLayout
         android:layout_width="0.1dp"
         android:layout_height="0.1dp"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.iavariav.root.joon">
+    package="com.iavariav.root.gopil">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -19,10 +19,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.iavariav.root.joon.LoginActivity" />
+        <activity android:name="com.iavariav.root.gopil.LoginActivity" />
         <activity
-            android:name="com.iavariav.root.joon.Rule.HomeActivity"
-            android:label="JOON"
+            android:name="com.iavariav.root.gopil.Rule.HomeActivity"
+            android:label="@string/akusisi"
             android:screenOrientation="portrait" />
 
         <meta-data
@@ -33,12 +33,12 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity
-            android:name="com.iavariav.root.joon.Rule.DetailNewsActivity"
+            android:name="com.iavariav.root.gopil.Rule.DetailNewsActivity"
             android:label="Detail Berita"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.iavariav.root.joon.Rule.SplashScreenActivity"
+            android:name="com.iavariav.root.gopil.Rule.SplashScreenActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -47,106 +47,106 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.iavariav.root.joon.Rule.ProfilActivity"
+            android:name="com.iavariav.root.gopil.Rule.ProfilActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.iavariav.root.joon.Rule.PartaiActivity"
+            android:name="com.iavariav.root.gopil.Rule.PartaiActivity"
             android:label="Partai"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.iavariav.root.joon.Rule.DapilActivity"
+            android:name="com.iavariav.root.gopil.Rule.DapilActivity"
             android:label="Dapil"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.iavariav.root.joon.Rule.DetailDapilActivity"
+            android:name="com.iavariav.root.gopil.Rule.DetailDapilActivity"
             android:label="Detail Dapil"
-            android:parentActivityName="com.iavariav.root.joon.Rule.DapilActivity"
+            android:parentActivityName="com.iavariav.root.gopil.Rule.DapilActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.iavariav.root.joon.Rule.DapilActivity" />
+                android:value="com.iavariav.root.gopil.Rule.DapilActivity" />
         </activity>
         <activity
-            android:name="com.iavariav.root.joon.Rule.DetailPartaiActivity"
+            android:name="com.iavariav.root.gopil.Rule.DetailPartaiActivity"
             android:label="Detail Partai"
-            android:parentActivityName="com.iavariav.root.joon.Rule.PartaiActivity"
+            android:parentActivityName="com.iavariav.root.gopil.Rule.PartaiActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.iavariav.root.joon.Rule.PartaiActivity" />
+                android:value="com.iavariav.root.gopil.Rule.PartaiActivity" />
         </activity>
         <activity
-            android:name="com.iavariav.root.joon.Rule.Anggaran.AnggaranActivity"
+            android:name="com.iavariav.root.gopil.Rule.Anggaran.AnggaranActivity"
             android:label="Anggaran"
-            android:parentActivityName="com.iavariav.root.joon.Rule.WIlayahActivity"
+            android:parentActivityName="com.iavariav.root.gopil.Rule.WIlayahActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.iavariav.root.joon.Rule.Anggaran.DetailAnggaranActivity"
+            android:name="com.iavariav.root.gopil.Rule.Anggaran.DetailAnggaranActivity"
             android:label="Detail Anggaran"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.iavariav.root.joon.Rule.TahapanPemiluActivity"
+            android:name="com.iavariav.root.gopil.Rule.TahapanPemiluActivity"
             android:label="Tahapan Pemilu"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.iavariav.root.joon.Rule.TataTertibActivity"
+            android:name="com.iavariav.root.gopil.Rule.TataTertibActivity"
             android:label="Tata Tertib"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.iavariav.root.joon.Rule.WIlayahActivity"
+            android:name="com.iavariav.root.gopil.Rule.WIlayahActivity"
             android:label="Wilayah"
-            android:parentActivityName="com.iavariav.root.joon.Rule.Anggaran.DaftarAnggaranActivity"
+            android:parentActivityName="com.iavariav.root.gopil.Rule.Anggaran.DaftarAnggaranActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.iavariav.root.joon.Rule.Anggaran.AnggaranPribadiActivity"
+            android:name="com.iavariav.root.gopil.Rule.Anggaran.AnggaranPribadiActivity"
             android:label="Anggaran Pribadi"
-            android:parentActivityName="com.iavariav.root.joon.Rule.WIlayahActivity"
+            android:parentActivityName="com.iavariav.root.gopil.Rule.WIlayahActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.iavariav.root.joon.Rule.Anggaran.DaftarAnggaranActivity"
+            android:name="com.iavariav.root.gopil.Rule.Anggaran.DaftarAnggaranActivity"
             android:label="Pilih Anggaran"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.iavariav.root.joon.Rule.Anggaran.DetailAnggaranPribadiActivity"
+            android:name="com.iavariav.root.gopil.Rule.Anggaran.DetailAnggaranPribadiActivity"
             android:label="Detail Anggaran Pribadi"
-            android:parentActivityName="com.iavariav.root.joon.Rule.Anggaran.AnggaranPribadiActivity"
+            android:parentActivityName="com.iavariav.root.gopil.Rule.Anggaran.AnggaranPribadiActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.iavariav.root.joon.Rule.Anggaran.AnggaranPartaiActivity"
+            android:name="com.iavariav.root.gopil.Rule.Anggaran.AnggaranPartaiActivity"
             android:label="Anggaran Partai"
-            android:parentActivityName="com.iavariav.root.joon.Rule.WIlayahActivity"
+            android:parentActivityName="com.iavariav.root.gopil.Rule.WIlayahActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.iavariav.root.joon.Rule.Anggaran.DetailAnggaranPartaiActivity"
+            android:name="com.iavariav.root.gopil.Rule.Anggaran.DetailAnggaranPartaiActivity"
             android:label="Detail Anggaran Partai"
-            android:parentActivityName="com.iavariav.root.joon.Rule.Anggaran.AnggaranPartaiActivity"
+            android:parentActivityName="com.iavariav.root.gopil.Rule.Anggaran.AnggaranPartaiActivity"
             android:screenOrientation="portrait" />
 
         <service
-            android:name="com.iavariav.root.joon.Service.MyService"
+            android:name="com.iavariav.root.gopil.Service.MyService"
             android:process=".my_service" />
 
         <activity
-            android:name="com.iavariav.root.joon.Rule.TataCaraActivity"
+            android:name="com.iavariav.root.gopil.Rule.TataCaraActivity"
             android:label="Tata Cara"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.iavariav.root.joon.Rule.FAQActivity"
+            android:name="com.iavariav.root.gopil.Rule.FAQActivity"
             android:label="FAQ"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.iavariav.root.joon.Rule.IklanVideoActivity"
+            android:name="com.iavariav.root.gopil.Rule.IklanVideoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.iavariav.root.joon.Rule.IklanListActivity"
+            android:name="com.iavariav.root.gopil.Rule.IklanListActivity"
             android:label="Iklan Masyarakat"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.iavariav.root.joon.Rule.LaporanAkhirPemilihActivity"
+            android:name="com.iavariav.root.gopil.Rule.LaporanAkhirPemilihActivity"
             android:screenOrientation="portrait" />
-        <activity android:name="com.iavariav.root.joon.Rule.PantauKampanyeActivity"></activity>
+        <activity android:name="com.iavariav.root.gopil.Rule.PantauKampanyeActivity"></activity>
     </application>
 
 </manifest>

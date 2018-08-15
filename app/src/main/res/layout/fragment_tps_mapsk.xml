@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.iavariav.root.joon.Rule.Fragment.TpsMapsFragment">
+    tools:context="com.iavariav.root.gopil.Rule.Fragment.TpsMapsFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <com.google.android.gms.maps.MapView

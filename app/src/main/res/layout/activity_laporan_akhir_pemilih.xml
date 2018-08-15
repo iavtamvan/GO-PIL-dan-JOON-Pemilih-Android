@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.iavariav.root.joon.Rule.LaporanAkhirPemilihActivity">
+    tools:context="com.iavariav.root.gopil.Rule.LaporanAkhirPemilihActivity">
 
     <android.support.v7.widget.Toolbar
         android:layout_width="match_parent"
